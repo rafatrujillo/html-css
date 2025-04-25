@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format(opentype);
+}
+
+
+body {
+    background-color: #84E1AD;
+}
+
+.principal{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header {
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom, #35c96b98, #2e9b5ada, #1c633bd5, #193927);
+    height: 152px;
+    width: 101%;
+    padding: 8px;
+    margin: -1%;
+    text-align: center;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0px 15px 8px 15px;
+    color: whitesmoke;
+    
+}
+
+a.link:hover { /*VOLTAR AQUI DEPOIS*/
+    background-color: rgb(26, 104, 26);
+    height: 900px;
+    width: 300px;
+}
+
+main {
+    background-color: white;
+    height: 100%;
+    margin-top: 19px;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 4px 20px 8px 20px;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > p {
+    text-indent: 16px;
+}
+
+#secundario{ 
+    font-family: 'android', Helvetica, sans-serif; 
+    color: #1d422e;
+}
+
+.terciario {
+    font-family: 'android', Helvetica, sans-serif; 
+    color: #1d422e;   
+    background-image:linear-gradient(to right, #DBF3E6, white);
+    padding: 2px 2px 2px 9px;
+}
+
+.linktexto {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#imagemdroid {
+    height: 200px;
+}
+
+iframe{
+    background-color: #193927;
+    padding: 19px 100px 19px 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+#aprender {
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #2FA866;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+#final {
+    text-indent: 16px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #d7ece1;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -16px;
+}
+
+footer{
+    color: whitesmoke;
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 4px;
+    margin: 16px -8px -8px -9px;
+}
+
