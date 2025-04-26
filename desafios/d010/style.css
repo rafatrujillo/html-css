@@ -25,11 +25,10 @@ p {
 header {
     color: whitesmoke;
     background-image: linear-gradient(to bottom, #35c96b98, #2e9b5ada, #1c633bd5, #193927);
-    height: 152px;
-    width: 101%;
-    padding: 8px;
-    margin: -1%;
+    min-height: 150px;
+    padding-top: 30px;
     text-align: center;
+    
 }
 
 nav > a {
@@ -42,19 +41,19 @@ nav > a {
 
 a.link:hover { /*VOLTAR AQUI DEPOIS*/
     background-color: rgb(26, 104, 26);
-    height: 900px;
-    width: 300px;
+    
 }
 
 main {
     background-color: white;
-    height: 100%;
-    margin-top: 19px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding: 4px 20px 8px 20px;
+    height: 100%; 
+    padding: 20px;
     box-shadow: 1px 1px 1px black;
     border-radius: 0px 0px 10px 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    
 }
 
 main > p {
@@ -79,21 +78,30 @@ main > p {
     text-decoration: none;
 }
 
-img{
-    display: block;
-    width: 700px;
-    margin: 0 auto;
+img {
+    width: 100%;
 }
 
 #imagemdroid {
-    height: 200px;
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
 }
 
-iframe{
+#video {
+    position: relative;
     background-color: #193927;
-    padding: 19px 100px 19px 100px;
-    margin: 0 auto;
-    display: block;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+}
+
+#video > iframe{
+    position: absolute; 
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 #aprender {
@@ -102,6 +110,11 @@ iframe{
     background-color: #2FA866;
     border-radius: 10px 10px 0 0;
     padding: 10px;
+}
+
+div#final > ul {
+    columns: 2;
+    list-style-type: none;
 }
 
 #final {
