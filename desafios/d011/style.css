@@ -81,6 +81,24 @@ header > p > a:hover {
     display: inline-block;
 }
 
+#video {
+    background-color: black;
+    position: relative;
+    margin-bottom: 150px;
+    padding: 15px;
+    padding-bottom: 50%;
+}
+
+#video > iframe {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 footer {
     background-color: black;
     color: white;
