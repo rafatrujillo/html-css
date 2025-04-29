@@ -9,22 +9,25 @@
     padding: 0px;
  }
 
+ html, body {
+    min-height: 100vh;
+    background-color: whitesmoke;
+ }
+
 header {
     font-family: 'Passion One', sans-serif;
     color: white;
     background-color: black;
     text-align: center;
-    font-size: 70px;
+    font-size: 5vw;
     margin: auto;
     padding: 50px;
-
-   
-    width: 100%;
+    font-variant: small-caps;
 }
 
 header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 header > p > a {
@@ -39,20 +42,21 @@ header > p > a:hover {
 
 .semimg {
     font-family: 'Sriracha', Arial, Helvetica, sans-serif;
-    line-height: 80px;
+    line-height: 2em;
     padding: 100px 20px;
-    font-size: 50px;
+    font-size: 5vw;
 }
 
 #imagem1 {
     color: white;
     font-family: 'Sriracha', Arial, Helvetica, sans-serif;
-    line-height: 80px;
+    line-height: 2em;
     padding: 100px 20px;
-    font-size: 50px;
+    font-size: 5vw;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
 
     background-image: url(imagens/background001.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center center;
 }
@@ -60,9 +64,10 @@ header > p > a:hover {
 #imagem2 {
     color: white;
     font-family: 'Sriracha', Arial, Helvetica, sans-serif;
-    line-height: 80px;
+    line-height: 2em;
     padding: 20px 20px 50px 20px;
-    font-size: 50px;
+    font-size: 5vw;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
 
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
@@ -73,7 +78,7 @@ header > p > a:hover {
 #imagem2 > p {
     background-color: rgba(0, 0, 0, 0.432);
     padding: 30px;
-    width: 600px;
+    display: inline-block;
 }
 
 footer {
